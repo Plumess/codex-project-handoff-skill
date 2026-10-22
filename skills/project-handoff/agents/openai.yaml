@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Handoff"
+  short_description: "Source-backed handoffs with image-aware recovery checks"
+  default_prompt: "Use $project-handoff to prepare a compact, source-backed handoff and verify recovery in a fresh conversation."
