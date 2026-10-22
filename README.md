@@ -77,4 +77,10 @@ python3 skills/project-handoff/scripts/handoff.py --help
 
 详细格式、只读检查和接续验收规则见 [Skill](skills/project-handoff/SKILL.md)。实际验证范围见 [验证记录](docs/VALIDATION.md)，设计来源见 [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md)。
 
-MIT License。
+## 致谢与许可
+
+感谢 **[Yorushikamimimi](https://github.com/Yorushikamimimi/codex-thread-handoff)** 和 **[Liu-Bot24](https://github.com/Liu-Bot24/codex-session-handoff-skill)** 的开源贡献：前者提供了以权威资料为入口、保留对话差量并独立验证接续效果的思路；后者提供了本机交接快照、显式沿袭关系和完整性校验的参考。也感谢 [ggboss](https://github.com/ggboss/codex-context-handoff-skill) 对短入口与渐进读取的实践。
+
+本项目独立编写指令、Python helper 和测试，未打包上游的 session 改写或清理脚本。这些设计参考不表示原作者参与维护或认可本项目。具体参考版本见 [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md)。
+
+本项目以 [MIT License](LICENSE) 发布。三个参考项目在所列版本中也采用 MIT；其原始版权声明、完整许可文本和来源链接保留在 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。这些声明保留各自作者的权利，不由本项目的版权声明替代。若后续直接引入其代码或文档，应随对应内容继续保留所需声明。

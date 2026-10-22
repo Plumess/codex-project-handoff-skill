@@ -7,3 +7,5 @@ This is an independent implementation. No upstream session-rewriting code is bun
 - [ggboss/codex-context-handoff-skill](https://github.com/ggboss/codex-context-handoff-skill/tree/637fe9689fce605ad669d233e1ca311c5d05a6f4), MIT: small current-state entry points and progressive reading.
 
 Original transcripts and Codex databases stay unchanged. Packet checks establish integrity and freshness; an independent recovery report supplies behavioral evidence. Neither is a claim of lossless transfer.
+
+The original copyright notices and complete MIT terms at these pinned revisions are preserved in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Our own copyright notice does not replace theirs.
